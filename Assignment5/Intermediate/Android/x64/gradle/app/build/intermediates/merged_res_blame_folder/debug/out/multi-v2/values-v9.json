@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.sushant.myCompany.app-mergeDebugResources-13:/values-v9/values-v9.xml",
+            "map": [
+                {
+                    "source": "/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/res/values-v9/styles.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endColumns": "92,99",
+                        "endOffsets": "143,243"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,147",
+                        "endColumns": "91,98",
+                        "endOffsets": "142,241"
+                    }
+                }
+            ]
+        }
+    ]
+}

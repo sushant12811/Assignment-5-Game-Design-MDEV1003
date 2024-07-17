@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.sushant.myCompany.app-mergeDebugResources-13:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/sushantdhakal/.gradle/caches/transforms-3/30891a14132f501b0723920f18972b1c/transformed/appcompat-1.2.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/app/src/main/res/values-land/styles.xml",
+                    "from": {
+                        "startLines": "3,12,14",
+                        "startColumns": "1,4,4",
+                        "startOffsets": "53,517,611",
+                        "endLines": "10,12,18",
+                        "endColumns": "9,92,12",
+                        "endOffsets": "511,605,874"
+                    },
+                    "to": {
+                        "startLines": "5,13,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "264,727,817",
+                        "endLines": "12,13,18",
+                        "endColumns": "9,89,12",
+                        "endOffsets": "722,812,1078"
+                    }
+                }
+            ]
+        }
+    ]
+}

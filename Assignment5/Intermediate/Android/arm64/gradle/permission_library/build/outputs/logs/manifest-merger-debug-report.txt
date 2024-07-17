@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml:1:1-72
+INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml:1:1-72
+INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml:1:1-72
+	package
+		INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+		ADDED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml:1:1-72
+		INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+		ADDED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+		ADDED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/arm64/gradle/permission_library/src/main/AndroidManifest.xml

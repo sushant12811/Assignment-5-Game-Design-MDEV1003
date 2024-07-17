@@ -1,0 +1,554 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sushant.myCompany"
+4    android:installLocation="internalOnly"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml
+11    <!-- Requirements -->
+12    <uses-feature
+12-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:72:3-76
+13        android:glEsVersion="0x00030002"
+13-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:72:17-49
+14        android:required="true" />
+14-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:72:50-73
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:73:3-65
+16-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:73:20-62
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:74:3-79
+17-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:74:20-76
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:75:3-77
+18-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:75:20-74
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:76:3-66
+19-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:76:20-63
+20    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+20-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:77:3-71
+20-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:77:20-68
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:78:3-74
+21-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:78:20-71
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:79:3-78
+22-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:79:20-75
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:80:3-64
+23-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:80:20-61
+24    <uses-permission android:name="com.android.vending.BILLING" />
+24-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:81:3-65
+24-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:81:20-62
+25    <!-- Supported texture compression formats (cooked) -->
+26    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+26-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:83:3-77
+26-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:83:24-74
+27
+28    <uses-permission
+28-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:84:3-87
+29        android:name="android.permission.FOREGROUND_SERVICE"
+29-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:84:20-72
+30        __line="66" />
+30-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:84:73-84
+31    <uses-permission
+31-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:85:3-97
+32        android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+32-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:85:20-82
+33        __line="67" />
+33-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:85:83-94
+34    <uses-permission
+34-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:86:3-87
+35        android:name="android.permission.POST_NOTIFICATIONS"
+35-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:86:20-72
+36        __line="68" />
+36-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:86:73-84
+37
+38    <queries>
+38-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:7:5-10:15
+39        <package android:name="com.google.android.gms" />
+39-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:8:9-58
+39-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:8:18-55
+40        <package android:name="com.android.vending" />
+40-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:9:9-55
+40-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:9:18-52
+41    </queries> <!-- Application Definition -->
+42    <application
+42-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:3:3-70:17
+43        android:name="com.epicgames.unreal.GameApplication"
+43-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:3:147-198
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.3.0] /Users/sushantdhakal/.gradle/caches/transforms-3/87c712ceb280b89563e287f590257de7/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="true"
+46-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:3:114-146
+47        android:hardwareAccelerated="true"
+47-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:3:79-113
+48        android:hasCode="true"
+48-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:3:243-265
+49        android:icon="@drawable/icon"
+49-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:3:49-78
+50        android:label="@string/app_name"
+50-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:3:16-48
+51        android:requestLegacyExternalStorage="true" >
+51-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:3:199-242
+52        <activity
+52-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:4:5-9:16
+53            android:name="com.epicgames.unreal.SplashActivity"
+53-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:4:15-65
+54            android:debuggable="true"
+54-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:4:275-300
+55            android:exported="true"
+55-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:4:66-89
+56            android:label="@string/app_name"
+56-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:4:90-122
+57            android:launchMode="singleTask"
+57-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:4:164-195
+58            android:resizeableActivity="false"
+58-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:4:196-230
+59            android:screenOrientation="sensorLandscape"
+59-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:4:231-274
+60            android:theme="@style/UnrealSplashTheme" >
+60-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:4:123-163
+61            <intent-filter>
+61-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:5:7-8:23
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:6:9-61
+62-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:6:17-58
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:7:9-69
+64-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:7:19-66
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:5-12:16
+68            android:name="com.epicgames.unreal.GameActivity"
+68-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:15-63
+69            android:configChanges="mcc|mnc|uiMode|density|screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|keyboard|navigation|touchscreen|locale|fontScale|layoutDirection"
+69-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:162-343
+70            android:debuggable="true"
+70-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:455-480
+71            android:exported="true"
+71-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:64-87
+72            android:label="@string/app_name"
+72-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:88-120
+73            android:launchMode="singleTask"
+73-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:379-410
+74            android:resizeableActivity="false"
+74-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:344-378
+75            android:screenOrientation="sensorLandscape"
+75-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:411-454
+76            android:theme="@style/UnrealSplashTheme" >
+76-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:10:121-161
+77            <meta-data
+77-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:11:7-79
+78                android:name="android.app.lib_name"
+78-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:11:18-53
+79                android:value="Unreal" />
+79-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:11:54-76
+80        </activity>
+81        <activity
+81-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:13:5-231
+82            android:name="com.sushant.myCompany.DownloaderActivity"
+82-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:13:15-49
+83            android:configChanges="mcc|mnc|uiMode|density|screenSize|orientation|keyboardHidden|keyboard"
+83-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:13:94-187
+84            android:screenOrientation="sensorLandscape"
+84-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:13:50-93
+85            android:theme="@style/UnrealSplashTheme" />
+85-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:13:188-228
+86
+87        <meta-data
+87-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:14:5-103
+88            android:name="com.epicgames.unreal.GameActivity.EngineVersion"
+88-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:14:16-78
+89            android:value="5.4.2" />
+89-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:14:79-100
+90        <meta-data
+90-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:15:5-114
+91            android:name="com.epicgames.unreal.GameActivity.EngineBranch"
+91-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:15:16-77
+92            android:value="++UE5+Release-5.4" />
+92-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:15:78-111
+93        <meta-data
+93-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:16:5-106
+94            android:name="com.epicgames.unreal.GameActivity.ProjectVersion"
+94-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:16:16-79
+95            android:value="1.0.0.0" />
+95-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:16:80-103
+96        <meta-data
+96-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:17:5-107
+97            android:name="com.epicgames.unreal.GameActivity.DepthBufferPreference"
+97-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:17:16-86
+98            android:value="0" />
+98-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:17:87-104
+99        <meta-data
+99-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:18:5-110
+100            android:name="com.epicgames.unreal.GameActivity.bPackageDataInsideApk"
+100-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:18:16-86
+101            android:value="true" />
+101-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:18:87-107
+102        <meta-data
+102-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:19:5-109
+103            android:name="com.epicgames.unreal.GameActivity.bVerifyOBBOnStartUp"
+103-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:19:16-84
+104            android:value="false" />
+104-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:19:85-106
+105        <meta-data
+105-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:20:5-102
+106            android:name="com.epicgames.unreal.GameActivity.bShouldHideUI"
+106-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:20:16-78
+107            android:value="true" />
+107-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:20:79-99
+108        <meta-data
+108-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:21:5-107
+109            android:name="com.epicgames.unreal.GameActivity.ProjectName"
+109-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:21:16-76
+110            android:value="Assignment5" />
+110-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:21:77-104
+111        <meta-data
+111-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:22:5-92
+112            android:name="com.epicgames.unreal.GameActivity.AppType"
+112-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:22:16-72
+113            android:value="" />
+113-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:22:73-89
+114        <meta-data
+114-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:23:5-101
+115            android:name="com.epicgames.unreal.GameActivity.bHasOBBFiles"
+115-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:23:16-77
+116            android:value="true" />
+116-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:23:78-98
+117        <meta-data
+117-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:24:5-114
+118            android:name="com.epicgames.unreal.GameActivity.BuildConfiguration"
+118-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:24:16-83
+119            android:value="Development" />
+119-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:24:84-111
+120        <meta-data
+120-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:25:5-102
+121            android:name="com.epicgames.unreal.GameActivity.CookedFlavors"
+121-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:25:16-78
+122            android:value="ASTC" />
+122-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:25:79-99
+123        <meta-data
+123-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:26:5-112
+124            android:name="com.epicgames.unreal.GameActivity.bValidateTextureFormats"
+124-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:26:16-88
+125            android:value="true" />
+125-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:26:89-109
+126        <meta-data
+126-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:27:5-109
+127            android:name="com.epicgames.unreal.GameActivity.bUseExternalFilesDir"
+127-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:27:16-85
+128            android:value="true" />
+128-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:27:86-106
+129        <meta-data
+129-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:28:5-105
+130            android:name="com.epicgames.unreal.GameActivity.bPublicLogFiles"
+130-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:28:16-80
+131            android:value="false" />
+131-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:28:81-102
+132        <meta-data
+132-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:29:5-107
+133            android:name="com.epicgames.unreal.GameActivity.bUseDisplayCutout"
+133-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:29:16-82
+134            android:value="false" />
+134-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:29:83-104
+135        <meta-data
+135-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:30:5-99
+136            android:name="com.epicgames.unreal.GameActivity.bAllowIMU"
+136-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:30:16-74
+137            android:value="false" />
+137-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:30:75-96
+138        <meta-data
+138-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:31:5-104
+139            android:name="com.epicgames.unreal.GameActivity.bSupportsVulkan"
+139-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:31:16-80
+140            android:value="true" />
+140-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:31:81-101
+141        <meta-data
+141-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:32:5-100
+142            android:name="com.epicgames.unreal.GameActivity.PropagateAlpha"
+142-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:32:16-79
+143            android:value="0" />
+143-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:32:80-97
+144        <meta-data
+144-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:33:5-144
+145            android:name="com.epicgames.unreal.GameActivity.StartupPermissions"
+145-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:33:16-83
+146            android:value="android.permission.WRITE_EXTERNAL_STORAGE" />
+146-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:33:84-141
+147        <meta-data
+147-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:34:5-100
+148            android:name="com.google.android.gms.games.APP_ID"
+148-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:34:16-66
+149            android:value="@string/app_id" />
+149-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:34:67-97
+150        <meta-data
+150-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:35:5-118
+151            android:name="com.google.android.gms.version"
+151-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:35:16-61
+152            android:value="@integer/google_play_services_version" />
+152-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:35:62-115
+153
+154        <activity
+154-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:36:5-180
+155            android:name="com.google.android.gms.ads.AdActivity"
+155-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:36:15-67
+156            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+156-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:36:68-177
+157
+158        <service
+158-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:37:5-119
+159            android:name="com.epicgames.unreal.psoservices.OGLProgramService"
+159-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:37:14-79
+160            android:process=":psoprogramservice" />
+160-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:37:80-116
+161        <service
+161-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:38:5-121
+162            android:name="com.epicgames.unreal.psoservices.OGLProgramService1"
+162-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:38:14-80
+163            android:process=":psoprogramservice1" />
+163-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:38:81-118
+164        <service
+164-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:39:5-121
+165            android:name="com.epicgames.unreal.psoservices.OGLProgramService2"
+165-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:39:14-80
+166            android:process=":psoprogramservice2" />
+166-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:39:81-118
+167        <service
+167-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:40:5-121
+168            android:name="com.epicgames.unreal.psoservices.OGLProgramService3"
+168-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:40:14-80
+169            android:process=":psoprogramservice3" />
+169-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:40:81-118
+170        <service
+170-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:41:5-121
+171            android:name="com.epicgames.unreal.psoservices.OGLProgramService4"
+171-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:41:14-80
+172            android:process=":psoprogramservice4" />
+172-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:41:81-118
+173        <service
+173-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:42:5-121
+174            android:name="com.epicgames.unreal.psoservices.OGLProgramService5"
+174-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:42:14-80
+175            android:process=":psoprogramservice5" />
+175-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:42:81-118
+176        <service
+176-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:43:5-121
+177            android:name="com.epicgames.unreal.psoservices.OGLProgramService6"
+177-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:43:14-80
+178            android:process=":psoprogramservice6" />
+178-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:43:81-118
+179        <service
+179-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:44:5-121
+180            android:name="com.epicgames.unreal.psoservices.OGLProgramService7"
+180-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:44:14-80
+181            android:process=":psoprogramservice7" />
+181-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:44:81-118
+182        <service
+182-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:45:5-122
+183            android:name="com.epicgames.unreal.psoservices.VulkanProgramService"
+183-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:45:14-82
+184            android:process=":psoprogramservice" />
+184-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:45:83-119
+185        <service
+185-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:46:5-124
+186            android:name="com.epicgames.unreal.psoservices.VulkanProgramService1"
+186-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:46:14-83
+187            android:process=":psoprogramservice1" />
+187-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:46:84-121
+188        <service
+188-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:47:5-124
+189            android:name="com.epicgames.unreal.psoservices.VulkanProgramService2"
+189-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:47:14-83
+190            android:process=":psoprogramservice2" />
+190-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:47:84-121
+191        <service
+191-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:48:5-124
+192            android:name="com.epicgames.unreal.psoservices.VulkanProgramService3"
+192-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:48:14-83
+193            android:process=":psoprogramservice3" />
+193-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:48:84-121
+194        <service
+194-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:49:5-124
+195            android:name="com.epicgames.unreal.psoservices.VulkanProgramService4"
+195-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:49:14-83
+196            android:process=":psoprogramservice4" />
+196-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:49:84-121
+197        <service
+197-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:50:5-124
+198            android:name="com.epicgames.unreal.psoservices.VulkanProgramService5"
+198-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:50:14-83
+199            android:process=":psoprogramservice5" />
+199-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:50:84-121
+200        <service
+200-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:51:5-124
+201            android:name="com.epicgames.unreal.psoservices.VulkanProgramService6"
+201-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:51:14-83
+202            android:process=":psoprogramservice6" />
+202-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:51:84-121
+203        <service
+203-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:52:5-124
+204            android:name="com.epicgames.unreal.psoservices.VulkanProgramService7"
+204-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:52:14-83
+205            android:process=":psoprogramservice7" />
+205-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:52:84-121
+206        <service android:name="com.sushant.myCompany.OBBDownloaderService" />
+206-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:53:5-52
+206-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:53:14-49
+207
+208        <receiver android:name="com.sushant.myCompany.AlarmReceiver" />
+208-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:54:5-46
+208-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:54:15-43
+209        <receiver android:name="com.epicgames.unreal.LocalNotificationReceiver" />
+209-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:55:5-79
+209-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:55:15-76
+210        <receiver android:name="com.epicgames.unreal.CellularReceiver" />
+210-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:56:5-70
+210-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:56:15-67
+211        <receiver
+211-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:57:5-61:16
+212            android:name="com.epicgames.unreal.MulticastBroadcastReceiver"
+212-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:57:15-77
+213            android:exported="true" >
+213-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:57:78-101
+214            <intent-filter>
+214-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:58:7-60:23
+215                <action android:name="com.android.vending.INSTALL_REFERRER" />
+215-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:59:9-71
+215-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:59:17-68
+216            </intent-filter>
+217        </receiver>
+218
+219        <meta-data
+219-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:62:5-73
+220            android:name="android.max_aspect"
+220-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:62:16-49
+221            android:value="2.10" />
+221-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:62:50-70
+222
+223        <service
+223-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:63:5-154
+224            android:name="com.epicgames.unreal.RemoteFileManagerService"
+224-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:63:14-74
+225            __line="71"
+225-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:63:140-151
+226            android:exported="true"
+226-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:63:116-139
+227            android:foregroundServiceType="dataSync" />
+227-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:63:75-115
+228
+229        <activity
+229-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:64:5-68:16
+230            android:name="com.epicgames.unreal.RemoteFileManagerActivity"
+230-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:64:15-76
+231            __line="72"
+231-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:64:183-194
+232            android:exported="true"
+232-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:64:77-100
+233            android:screenOrientation="sensor"
+233-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:64:101-135
+234            android:theme="@android:style/Theme.NoDisplay" >
+234-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:64:136-182
+235            <intent-filter __line="73" >
+235-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:65:7-67:23
+235-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:65:22-33
+236                <action
+236-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:66:9-101
+237                    android:name="com.epicgames.unreal.RemoteFileManager.intent.COMMAND2"
+237-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:66:17-86
+238                    __line="74" />
+238-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:66:87-98
+239            </intent-filter>
+240        </activity>
+241
+242        <meta-data
+242-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:69:5-129
+243            android:name="com.epicgames.unreal.RemoteFileManager.bAllowNetworkConnection"
+243-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:69:16-93
+244            __line="85"
+244-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:69:115-126
+245            android:value="true" />
+245-->/Volumes/LaCie/Mobile Game Design/Assignment5/Intermediate/Android/x64/gradle/app/src/main/AndroidManifest.xml:69:94-114
+246
+247        <activity
+247-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+248            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+248-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+249            android:excludeFromRecents="true"
+249-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+250            android:exported="false"
+250-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+251            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+251-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+252        <!--
+253            Service handling Google Sign-In user revocation. For apps that do not integrate with
+254            Google Sign-In, this service will never be started.
+255        -->
+256        <service
+256-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+257            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+257-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+258            android:exported="true"
+258-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+259            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+259-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+260            android:visibleToInstantApps="true" />
+260-->[com.google.android.gms:play-services-auth:20.7.0] /Users/sushantdhakal/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+261
+262        <provider
+262-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:13:9-17:38
+263            android:name="com.google.android.gms.games.provider.PlayGamesInitProvider"
+263-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:14:13-87
+264            android:authorities="com.sushant.myCompany.playgamesinitprovider"
+264-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:15:13-73
+265            android:exported="false"
+265-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:16:13-37
+266            android:initOrder="99" />
+266-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:17:13-35
+267
+268        <activity
+268-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:19:9-22:62
+269            android:name="com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity"
+269-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:20:13-103
+270            android:exported="false"
+270-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:21:13-37
+271            android:theme="@style/Theme.Games.Transparent" />
+271-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:22:13-59
+272
+273        <meta-data
+273-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:24:9-26:62
+274            android:name="com.google.android.gms.games.version"
+274-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:25:13-64
+275            android:value="@string/play_games_sdk_version" />
+275-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/sushantdhakal/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:26:13-59
+276
+277        <activity
+277-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushantdhakal/.gradle/caches/transforms-3/13e38bc0a68c75c157006028828b6577/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+278            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+278-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushantdhakal/.gradle/caches/transforms-3/13e38bc0a68c75c157006028828b6577/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+279            android:exported="false"
+279-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushantdhakal/.gradle/caches/transforms-3/13e38bc0a68c75c157006028828b6577/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+280            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+280-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushantdhakal/.gradle/caches/transforms-3/13e38bc0a68c75c157006028828b6577/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+281
+282        <provider
+282-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sushantdhakal/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+283            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+283-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sushantdhakal/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+284            android:authorities="com.sushant.myCompany.lifecycle-process"
+284-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sushantdhakal/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+285            android:exported="false"
+285-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sushantdhakal/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+286            android:multiprocess="true" />
+286-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sushantdhakal/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+287    </application>
+288
+289</manifest>
