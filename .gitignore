@@ -80,3 +80,13 @@ Build/Android/*
 Binaries/Android/*
 *.apk
 *.obb
+*.ucas
+
+# Specific files mentioned
+Assignment5/Saved/StagedBuilds/Android_ASTC/Assignment5/Content/Paks/Assignment5-Android_ASTC.ucas
+Assignment5/Intermediate/Android/x64/gradle/app/src/main/assets/main.obb.png
+Assignment5/Intermediate/Android/x64/gradle/app/build/intermediates/compressed_assets/debug/out/assets/main.obb.png.jar
+Assignment5/Intermediate/Android/x64/gradle/app/build/intermediates/assets/debug/main.obb.png
+Assignment5/Intermediate/Android/arm64/gradle/app/src/main/assets/main.obb.png
+Assignment5/Intermediate/Android/arm64/gradle/app/build/intermediates/compressed_assets/debug/out/assets/main.obb.png.jar
+Assignment5/Intermediate/Android/arm64/gradle/app/build/intermediates/assets/debug/main.obb.png
