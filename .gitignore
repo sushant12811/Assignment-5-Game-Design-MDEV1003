@@ -78,24 +78,5 @@ Intermediate/Android/*
 Saved/StagedBuilds/Android/*
 Build/Android/*
 Binaries/Android/*
-
-# Exclude other platform-specific intermediate and build files
-Intermediate/IOS/*
-Saved/StagedBuilds/IOS/*
-Build/IOS/*
-Binaries/IOS/*
-
-Intermediate/Linux/*
-Saved/StagedBuilds/Linux/*
-Build/Linux/*
-Binaries/Linux/*
-
-Intermediate/Mac/*
-Saved/StagedBuilds/Mac/*
-Build/Mac/*
-Binaries/Mac/*
-
-Intermediate/Windows/*
-Saved/StagedBuilds/Windows/*
-Build/Windows/*
-Binaries/Windows/*
+*.apk
+*.obb
